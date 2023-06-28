@@ -8,10 +8,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var homeLabel: UILabel!
+    
+   // @IBOutlet var homeLabel: UIView!
+    @IBOutlet weak var diamondImage: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        homeLabel.text = "Jus Rich";
     }
 
 
